@@ -1,0 +1,23 @@
+.heading1 {
+  color: var(--Light-Blue, #cac9ff);
+  font-feature-settings: "liga" off, "clig" off;
+
+  /* Heading M */
+  font-family: "Hanken Grotesk";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+@media (max-width: 635px) {
+  .heading1 {
+    color: var(--Light-Blue, #cac9ff);
+    font-feature-settings: "liga" off, "clig" off;
+    font-family: "Hanken Grotesk";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+}

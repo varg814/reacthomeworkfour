@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.rightSection {
+  max-width: 368px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 38px 40px 46px 40px;
+  border-radius: 32px;
+}
+
+@media (max-width: 635px) {
+  .rightSection {
+    max-width: 100%;
+    padding: 24px 30px 30px 30px;
+  }
+}

@@ -1,0 +1,22 @@
+.cardname4 {
+  color: var(--Blue, #1125d6);
+
+  /* Body */
+  font-family: "Hanken Grotesk";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+@media (max-width: 635px) {
+  .cardname4 {
+    color: var(--Red, #1125d6);
+    font-feature-settings: "liga" off, "clig" off;
+    font-family: "Hanken Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}

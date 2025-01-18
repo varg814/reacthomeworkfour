@@ -1,0 +1,23 @@
+.paragraph1 {
+  color: var(--Light-Blue, #cac9ff);
+
+  /* Body (Bold) */
+  font-family: "Hanken Grotesk";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  opacity: 0.5;
+}
+
+@media (max-width: 635px) {
+  .paragraph1 {
+    color: var(--Light-Blue, #cac9ff);
+    font-feature-settings: "liga" off, "clig" off;
+    font-family: "Hanken Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+}

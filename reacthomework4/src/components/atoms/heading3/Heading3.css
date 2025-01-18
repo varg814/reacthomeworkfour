@@ -1,0 +1,21 @@
+.heading3 {
+  color: var(--White, #fff);
+
+  /* Heading L */
+  font-family: "Hanken Grotesk";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+@media (max-width: 635px) {
+  .heading3 {
+    color: var(--White, #fff);
+    font-family: "Hanken Grotesk";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+}

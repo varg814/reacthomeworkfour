@@ -1,0 +1,23 @@
+.paragraph2 {
+  color: var(--Light-Blue, #cac9ff);
+
+  /* Body */
+  font-family: "Hanken Grotesk";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+@media (max-width: 635px) {
+  .paragraph2 {
+    color: var(--Light-Blue, #cac9ff);
+
+    /* Body */
+    font-family: "Hanken Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}

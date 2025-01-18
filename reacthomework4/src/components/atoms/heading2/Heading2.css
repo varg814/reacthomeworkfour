@@ -1,0 +1,22 @@
+.heading2 {
+  color: var(--White, #fff);
+
+  /* Heading XL */
+  font-family: "Hanken Grotesk";
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 72px; /* 100% */
+}
+
+@media (max-width: 635px) {
+  .heading2 {
+    color: var(--White, #fff);
+    font-feature-settings: "liga" off, "clig" off;
+    font-family: "Hanken Grotesk";
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 72px; /* 128.571% */
+  }
+}
